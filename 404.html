@@ -2,6 +2,7 @@
 <html lang="en-AU">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-Ii+m2Zi8xzVDtN4LEQjTlmq+ubVdlFSF7ltunSIo8Fo='; style-src 'sha256-o9HVpI4oWinOSldTsuAC1v+HvM4v4DbA9pMtCiXQaZU='; base-uri 'none'; form-action 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sentry Operations™</title>
 <meta name="description" content="Sentry Operations Pty Ltd.">
@@ -9,7 +10,7 @@
 <meta name="color-scheme" content="dark">
 <meta name="referrer" content="no-referrer">
 <link rel="canonical" href="https://www.sentry-ops.com/">
-<!-- This page only forwards the bare address to the website at www.sentry-ops.com. The script keeps the path; the refresh line is for browsers with scripts off. -->
+<!-- This page only forwards the bare address to the website at www.sentry-ops.com. The script keeps the path; the refresh line is for browsers with scripts off. The content policy above allows only this one script and this one style block, by their SHA-256 hashes: change either and the hashes must change too (see README.md). -->
 <script>location.replace('https://www.sentry-ops.com' + location.pathname + location.search + location.hash);</script>
 <meta http-equiv="refresh" content="0; url=https://www.sentry-ops.com/">
 <style>
